@@ -1,5 +1,5 @@
 // model 읽어옴 (DB 정보 읽어서 테이블 스키마 생성)
-// require("./models/sync")();
+require("./models/sync")();
 require("dotenv").config();
 
 const express = require("express");
