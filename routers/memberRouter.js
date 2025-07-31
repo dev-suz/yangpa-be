@@ -24,7 +24,7 @@ router.post("/sign-up", async (req, res, next) => {
     res.status(201).json({
       success: true,
       member: result,
-      message: "회원가입이 완료되었습니다.",
+      message: "회원가입이 완료되었습니다. v1",
     });
   } catch (err) {
     next(err, req, res);
